@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">AuraTracks</string>
+
+    <!-- Navigation -->
+    <string name="nav_habits">Habits</string>
+    <string name="nav_mood">Mood Journal</string>
+    <string name="nav_hydration">Hydration</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Habit Tracker -->
+    <string name="habits_title">Daily Habits</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="delete_habit">Delete Habit</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="habit_description">Description (optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="completed">Completed</string>
+    <string name="not_completed">Not Completed</string>
+    <string name="progress">Progress</string>
+    <string name="today_progress">Today\'s Progress</string>
+
+    <!-- Mood Journal -->
+    <string name="mood_title">Mood Journal</string>
+    <string name="add_mood">Add Mood</string>
+    <string name="mood_note">Note (optional)</string>
+    <string name="select_mood">Select your mood</string>
+    <string name="mood_history">Mood History</string>
+    <string name="share_mood">Share Mood</string>
+
+    <!-- Hydration -->
+    <string name="hydration_title">Hydration Tracker</string>
+    <string name="water_intake">Water Intake</string>
+    <string name="glasses_drank">Glasses Drank</string>
+    <string name="add_glass">+ Add Glass</string>
+    <string name="remove_glass">- Remove Glass</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="reminder_interval">Reminder Interval</string>
+    <string name="enable_reminders">Enable Reminders</string>
+    <string name="reminder_message">Time to drink water! 💧</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="data_export">Export Data</string>
+    <string name="about">About</string>
+
+    <!-- Notifications -->
+    <string name="default_notification_channel_id">hydration_reminders</string>
+    <string name="default_notification_channel_name">Hydration Reminders</string>
+    <string name="default_notification_channel_description">Reminders to drink water</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+
+    <!-- Emojis -->
+    <string name="emoji_happy">😊</string>
+    <string name="emoji_sad">😢</string>
+    <string name="emoji_angry">😠</string>
+    <string name="emoji_excited">🤩</string>
+    <string name="emoji_calm">😌</string>
+    <string name="emoji_tired">😴</string>
+    <string name="emoji_stressed">😰</string>
+    <string name="emoji_neutral">😐</string>
+
+    <!-- AppBar Scrolling Behavior -->
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    
+    <!-- Launch Screen -->
+    <string name="launch_tagline">"Track. Reflect. Thrive."</string>
+    <string name="get_started">Get Started</string>
+    
+    <!-- Onboarding Screens -->
+    <string name="skip">Skip</string>
+    <string name="back">← Back</string>
+    <string name="next">NEXT</string>
+    
+    <!-- Onboarding Screen 1 -->
+    <string name="onboarding_title_1">Welcome to AuraTrack !</string>
+    <string name="onboarding_description_1">Balance your habits, moods, and hydration - all in one place</string>
+    
+    <!-- Onboarding Screen 2 -->
+    <string name="onboarding_title_2">"Your daily path to wellness, made simple."</string>
+    <string name="onboarding_description_2">Transform your daily routine with simple tracking tools designed to help you build lasting healthy habits</string>
+    
+    <!-- Onboarding Screen 3 -->
+    <string name="onboarding_title_3">Ready to Transform Your Life?</string>
+    <string name="onboarding_description_3">Join thousands of users who have already started their wellness journey. Begin tracking your progress today!</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+</resources>

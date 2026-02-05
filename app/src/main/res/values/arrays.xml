@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preloaded fonts for the app -->
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/asul_bold</item>
+        <item>@font/basic</item>
+        <item>@font/baumans</item>
+        <item>@font/bayon</item>
+        <item>@font/belgrano</item>
+        <item>@font/poppins_regular</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/poppins_semibold</item>
+        <item>@font/poppins_bold</item>
+    </array>
+    
+    <!-- Mood emoji options -->
+    <string-array name="mood_options">
+        <item>😊</item>
+        <item>😢</item>
+        <item>😠</item>
+        <item>🤩</item>
+        <item>😌</item>
+        <item>😴</item>
+        <item>😰</item>
+        <item>😐</item>
+    </string-array>
+    
+    <!-- Hydration reminder intervals -->
+    <string-array name="reminder_intervals">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+    </string-array>
+    
+    <!-- Daily water goals -->
+    <string-array name="water_goals">
+        <item>6 glasses</item>
+        <item>8 glasses</item>
+        <item>10 glasses</item>
+        <item>12 glasses</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

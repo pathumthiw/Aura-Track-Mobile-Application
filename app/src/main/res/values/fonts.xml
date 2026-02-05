@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Poppins Font Family References -->
+    <string name="font_family_poppins_regular">sans-serif</string>
+    <string name="font_family_poppins_medium">sans-serif-medium</string>
+    <string name="font_family_poppins_semibold">sans-serif-condensed</string>
+    <string name="font_family_poppins_bold">sans-serif-black</string>
+    
+    <!-- Font aliases for easier usage -->
+    <string name="poppins_regular">@string/font_family_poppins_regular</string>
+    <string name="poppins_medium">@string/font_family_poppins_medium</string>
+    <string name="poppins_semibold">@string/font_family_poppins_semibold</string>
+    <string name="poppins_bold">@string/font_family_poppins_bold</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <!-- Completion Checkbox -->
+        <CheckBox
+            android:id="@+id/checkbox_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:buttonTint="@color/success" />
+
+        <!-- Habit Content -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Habit Name -->
+            <TextView
+                android:id="@+id/habit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sample Habit"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="2dp"
+                tools:text="Drink Water" />
+
+            <!-- Habit Description -->
+            <TextView
+                android:id="@+id/habit_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sample description"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="6dp"
+                android:visibility="gone"
+                tools:text="Stay hydrated throughout the day"
+                tools:visibility="visible" />
+
+            <!-- Habit Info Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- Category Chip -->
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    app:chipBackgroundColor="@color/success"
+                    app:chipMinHeight="24dp"
+                    app:chipStrokeWidth="0dp" />
+
+                <!-- Streak Counter -->
+                <TextView
+                    android:id="@+id/tv_streak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔥 5 days"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_hint"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/dialog_background"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp" />
+
+            </LinearLayout>
+
+            <!-- Created Date -->
+            <TextView
+                android:id="@+id/habit_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created: Jan 15, 2024"
+                android:textSize="10sp"
+                android:textColor="@color/text_hint"
+                android:layout_marginTop="4dp"
+                tools:text="Created: Jan 15, 2024" />
+
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Edit Button -->
+            <ImageView
+                android:id="@+id/button_edit"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/circle_background_primary"
+                android:src="@drawable/ic_edit"
+                android:padding="8dp"
+                android:contentDescription="Edit habit"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerInside"
+                android:tint="@color/white" />
+
+            <!-- Delete Button -->
+            <ImageView
+                android:id="@+id/button_delete"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/circle_background_error"
+                android:src="@drawable/ic_delete"
+                android:padding="8dp"
+                android:contentDescription="Delete habit"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerInside"
+                android:tint="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M140,40 A100,100 0 1,1 140,240 A100,100 0 1,1 140,40 Z" />
+    
+    <!-- Delivery Person Body -->
+    <path
+        android:fillColor="#F56565"
+        android:pathData="M120,120 L160,120 L165,180 L115,180 Z" />
+    
+    <!-- Head -->
+    <path
+        android:fillColor="#FBB6CE"
+        android:pathData="M140,85 A20,20 0 1,1 140,125 A20,20 0 1,1 140,85 Z" />
+    
+    <!-- Package -->
+    <path
+        android:fillColor="#F6E05E"
+        android:pathData="M165,100 L195,100 L195,125 L165,125 Z" />
+    
+    <!-- Water Bottle -->
+    <path
+        android:fillColor="#4299E1"
+        android:pathData="M85,95 L100,95 L100,130 L85,130 Z" />
+    
+    <!-- Timer -->
+    <path
+        android:fillColor="#ED8936"
+        android:pathData="M200,165 A15,15 0 1,1 200,195 A15,15 0 1,1 200,165 Z" />
+        
+</vector>

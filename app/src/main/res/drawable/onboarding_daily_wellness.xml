@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#EDF2F7"
+        android:pathData="M140,20 A120,120 0 1,1 140,260 A120,120 0 1,1 140,20 Z" />
+    
+    <!-- Person Circle -->
+    <path
+        android:fillColor="#F7FAFC"
+        android:pathData="M140,80 A60,60 0 1,1 140,200 A60,60 0 1,1 140,80 Z" />
+    
+    <!-- Head -->
+    <path
+        android:fillColor="#FBB6CE"
+        android:pathData="M140,90 A20,20 0 1,1 140,130 A20,20 0 1,1 140,90 Z" />
+    
+    <!-- Body -->
+    <path
+        android:fillColor="#4299E1"
+        android:pathData="M125,130 L155,130 L155,170 L125,170 Z" />
+    
+    <!-- Laptop -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M120,170 L160,170 L160,195 L120,195 Z" />
+    
+    <!-- Screen -->
+    <path
+        android:fillColor="#68D391"
+        android:pathData="M122,172 L158,172 L158,193 L122,193 Z" />
+    
+    <!-- Floating Icons -->
+    <!-- Lightbulb -->
+    <path
+        android:fillColor="#F6E05E"
+        android:pathData="M80,65 A15,15 0 1,1 80,95 A15,15 0 1,1 80,65 Z" />
+    
+    <!-- Gear -->
+    <path
+        android:fillColor="#A0AEC0"
+        android:pathData="M200,78 A12,12 0 1,1 200,102 A12,12 0 1,1 200,78 Z" />
+    
+    <!-- Chart -->
+    <path
+        android:fillColor="#F56565"
+        android:pathData="M70,190 L90,190 L90,205 L70,205 Z" />
+    
+    <!-- Plant -->
+    <path
+        android:fillColor="#48BB78"
+        android:pathData="M190,180 L198,180 L198,200 L190,200 Z" />
+        
+</vector>

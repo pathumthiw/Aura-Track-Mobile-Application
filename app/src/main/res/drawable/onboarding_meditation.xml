@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FED7D7"
+        android:pathData="M140,20 A120,120 0 1,1 140,260 A120,120 0 1,1 140,20 Z" />
+    
+    <!-- Meditation Mat -->
+    <path
+        android:fillColor="#F6AD55"
+        android:pathData="M90,200 L190,200 L190,215 L90,215 Z" />
+    
+    <!-- Person Body -->
+    <path
+        android:fillColor="#9F7AEA"
+        android:pathData="M105,145 A35,25 0 1,1 175,145 A35,25 0 1,1 105,145 Z" />
+    
+    <!-- Head -->
+    <path
+        android:fillColor="#FBB6CE"
+        android:pathData="M140,95 A25,25 0 1,1 140,145 A25,25 0 1,1 140,95 Z" />
+    
+    <!-- Hair -->
+    <path
+        android:fillColor="#4A5568"
+        android:pathData="M120,105 Q140,90 160,105 Q160,110 140,110 Q120,110 120,105 Z" />
+    
+    <!-- Arms in meditation pose -->
+    <path
+        android:fillColor="#FBB6CE"
+        android:pathData="M110,148 A12,12 0 1,1 110,172 A12,12 0 1,1 110,148 Z" />
+    <path
+        android:fillColor="#FBB6CE"
+        android:pathData="M170,148 A12,12 0 1,1 170,172 A12,12 0 1,1 170,148 Z" />
+    
+    <!-- Legs crossed -->
+    <path
+        android:fillColor="#4A5568"
+        android:pathData="M110,180 A30,15 0 1,1 170,180 A30,15 0 1,1 110,180 Z" />
+        
+</vector>

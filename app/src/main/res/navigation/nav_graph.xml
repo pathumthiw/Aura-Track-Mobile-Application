@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/launchScreenFragment">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nutriwise.auratracks.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Habits Fragment -->
+    <fragment
+        android:id="@+id/habitsFragment"
+        android:name="com.nutriwise.auratracks.fragments.HabitsFragment"
+        android:label="@string/nav_habits"
+        tools:layout="@layout/fragment_habits" />
+
+    <!-- Mood Journal Fragment -->
+    <fragment
+        android:id="@+id/moodFragment"
+        android:name="com.nutriwise.auratracks.fragments.MoodFragment"
+        android:label="@string/nav_mood"
+        tools:layout="@layout/fragment_mood" />
+
+    <!-- Hydration Fragment -->
+    <fragment
+        android:id="@+id/hydrationFragment"
+        android:name="com.nutriwise.auratracks.fragments.HydrationFragment"
+        android:label="@string/nav_hydration"
+        tools:layout="@layout/fragment_hydration" />
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.nutriwise.auratracks.fragments.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- User Profile Fragment -->
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.nutriwise.auratracks.fragments.UserProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_user_profile">
+        
+        <action
+            android:id="@+id/action_userProfileFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Sign In Fragment -->
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.nutriwise.auratracks.fragments.SignInFragment"
+        android:label="Sign In"
+        tools:layout="@layout/fragment_sign_in">
+        
+        <action
+            android:id="@+id/action_signInFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+            
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+
+    <!-- Notifications Fragment -->
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.nutriwise.auratracks.fragments.NotificationsFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <!-- Habit Analytics Fragment -->
+    <fragment
+        android:id="@+id/habitAnalyticsFragment"
+        android:name="com.nutriwise.auratracks.fragments.HabitAnalyticsFragment"
+        android:label="Habit Analytics"
+        tools:layout="@layout/fragment_habit_analytics" />
+
+    <!-- Sign Up Fragment -->
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.nutriwise.auratracks.fragments.SignUpFragment"
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_sign_up">
+        
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <!-- Launch Screen Fragment -->
+    <fragment
+        android:id="@+id/launchScreenFragment"
+        android:name="com.nutriwise.auratracks.fragments.LaunchScreenFragment"
+        android:label="Launch"
+        tools:layout="@layout/fragment_launch_screen">
+        
+        <action
+            android:id="@+id/action_launchScreenFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+            
+        <action
+            android:id="@+id/action_launchScreenFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+            
+        <action
+            android:id="@+id/action_launchScreenFragment_to_onboardingScreen1Fragment"
+            app:destination="@id/onboardingScreen1Fragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+            
+        <action
+            android:id="@+id/action_launchScreenFragment_to_newUserWelcomeFragment"
+            app:destination="@id/newUserWelcomeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- New User Welcome Fragment -->
+    <fragment
+        android:id="@+id/newUserWelcomeFragment"
+        android:name="com.nutriwise.auratracks.fragments.NewUserWelcomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_new_user_welcome">
+        
+        <action
+            android:id="@+id/action_newUserWelcomeFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Onboarding Screen 1 Fragment -->
+    <fragment
+        android:id="@+id/onboardingScreen1Fragment"
+        android:name="com.nutriwise.auratracks.fragments.OnboardingScreen1Fragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_onboarding_screen1">
+        
+        <action
+            android:id="@+id/action_onboardingScreen1Fragment_to_onboardingScreen2Fragment"
+            app:destination="@id/onboardingScreen2Fragment" />
+            
+        <action
+            android:id="@+id/action_onboardingScreen1Fragment_to_onboardingScreen3Fragment"
+            app:destination="@id/onboardingScreen3Fragment" />
+    </fragment>
+
+    <!-- Onboarding Screen 2 Fragment -->
+    <fragment
+        android:id="@+id/onboardingScreen2Fragment"
+        android:name="com.nutriwise.auratracks.fragments.OnboardingScreen2Fragment"
+        android:label="Daily Path"
+        tools:layout="@layout/fragment_onboarding_screen2">
+        
+        <action
+            android:id="@+id/action_onboardingScreen2Fragment_to_onboardingScreen3Fragment"
+            app:destination="@id/onboardingScreen3Fragment" />
+            
+        <action
+            android:id="@+id/action_onboardingScreen2Fragment_to_onboardingScreen1Fragment"
+            app:destination="@id/onboardingScreen1Fragment" />
+    </fragment>
+
+    <!-- Onboarding Screen 3 Fragment -->
+    <fragment
+        android:id="@+id/onboardingScreen3Fragment"
+        android:name="com.nutriwise.auratracks.fragments.OnboardingScreen3Fragment"
+        android:label="Get Started"
+        tools:layout="@layout/fragment_onboarding_screen3">
+        
+        <action
+            android:id="@+id/action_onboardingScreen3Fragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+            
+        <action
+            android:id="@+id/action_onboardingScreen3Fragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+            
+        <action
+            android:id="@+id/action_onboardingScreen3Fragment_to_onboardingScreen2Fragment"
+            app:destination="@id/onboardingScreen2Fragment" />
+    </fragment>
+
+</navigation>

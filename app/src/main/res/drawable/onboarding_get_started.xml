@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="#E6FFFA"
+        android:pathData="M140,20 A120,120 0 1,1 140,260 A120,120 0 1,1 140,20 Z" />
+    
+    <!-- Rocket Body -->
+    <path
+        android:fillColor="#4FD1C7"
+        android:pathData="M115,80 L165,80 L165,200 L115,200 Z" />
+    
+    <!-- Rocket Tip -->
+    <path
+        android:fillColor="#38B2AC"
+        android:pathData="M115,80 L140,50 L165,80 Z" />
+    
+    <!-- Rocket Wings -->
+    <path
+        android:fillColor="#319795"
+        android:pathData="M115,160 L105,180 L125,170 Z" />
+    <path
+        android:fillColor="#319795"
+        android:pathData="M165,160 L175,180 L155,170 Z" />
+    
+    <!-- Window -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M140,105 A15,15 0 1,1 140,135 A15,15 0 1,1 140,105 Z" />
+    <path
+        android:fillColor="#4299E1"
+        android:pathData="M140,108 A12,12 0 1,1 140,132 A12,12 0 1,1 140,108 Z" />
+    
+    <!-- Fire/Exhaust -->
+    <path
+        android:fillColor="#F56565"
+        android:pathData="M120,195 A20,15 0 1,1 160,195 A20,15 0 1,1 120,195 Z" />
+    <path
+        android:fillColor="#FEB2B2"
+        android:pathData="M125,210 A15,10 0 1,1 155,210 A15,10 0 1,1 125,210 Z" />
+    
+    <!-- Stars -->
+    <path
+        android:fillColor="#F6E05E"
+        android:pathData="M80,67 A3,3 0 1,1 80,73 A3,3 0 1,1 80,67 Z" />
+    <path
+        android:fillColor="#F6E05E"
+        android:pathData="M200,76 A4,4 0 1,1 200,84 A4,4 0 1,1 200,76 Z" />
+    <path
+        android:fillColor="#F6E05E"
+        android:pathData="M220,147 A3,3 0 1,1 220,153 A3,3 0 1,1 220,147 Z" />
+    <path
+        android:fillColor="#F6E05E"
+        android:pathData="M60,176 A4,4 0 1,1 60,184 A4,4 0 1,1 60,176 Z" />
+        
+</vector>

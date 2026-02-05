@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_blue_dark">#1976D2</color>
+    <color name="primary_blue_light">#BBDEFB</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary_green">#4CAF50</color>
+    <color name="secondary_green_dark">#388E3C</color>
+    <color name="secondary_green_light">#C8E6C9</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_purple">#9C27B0</color>
+    <color name="accent_teal">#009688</color>
+    <color name="purple">#9C27B0</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="background_dark">#303030</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- Mood Colors -->
+    <color name="mood_happy">#FFEB3B</color>
+    <color name="mood_sad">#2196F3</color>
+    <color name="mood_angry">#F44336</color>
+    <color name="mood_excited">#FF9800</color>
+    <color name="mood_calm">#4CAF50</color>
+    <color name="mood_tired">#9E9E9E</color>
+    <color name="mood_stressed">#9C27B0</color>
+    <color name="mood_neutral">#607D8B</color>
+    
+    <!-- Water/Hydration Colors -->
+    <color name="water_blue">#03A9F4</color>
+    <color name="water_blue_light">#B3E5FC</color>
+    <color name="water_blue_dark">#0277BD</color>
+    <color name="card_glass">#FAFBFF</color>
+    <color name="card_stroke">#E0E7FF</color>
+    <color name="mood_card_bg">#F8F9FF</color>
+    <color name="empty_state_bg">#F0F4FF</color>
+    
+    <!-- Profile Colors -->
+    <color name="profile_green">#4CAF50</color>
+    <color name="profile_background">#F5F5F5</color>
+    <color name="profile_text_dark">#2E2E2E</color>
+    <color name="profile_text_secondary">#757575</color>
+    <color name="profile_stroke">#E0E0E0</color>
+    <color name="profile_button">#2E7D32</color>
+    <color name="error_red">#F44336</color>
+    
+    <!-- Sign In Colors -->
+    <color name="signin_primary">#2196F3</color>
+    <color name="signin_text_primary">#1A1A1A</color>
+    <color name="signin_text_secondary">#757575</color>
+    <color name="signin_stroke">#E0E0E0</color>
+    <color name="signin_divider">#E0E0E0</color>
+    
+    <!-- Notification Colors -->
+    <color name="notification_red">#FF4444</color>
+    <color name="notification_icon_bg">#F0F4FF</color>
+    <color name="notification_unread">#E3F2FD</color>
+    
+    <!-- Launch Screen Colors -->
+    <color name="launch_background">#F8F9FA</color>
+    <color name="launch_text_primary">#2D3748</color>
+    <color name="launch_button">#A3E635</color>
+    
+    <!-- Onboarding Colors -->
+    <color name="onboarding_background">#F8F9FA</color>
+    <color name="onboarding_primary">#A3E635</color>
+    <color name="onboarding_text_primary">#2D3748</color>
+    <color name="onboarding_text_secondary">#718096</color>
+    
+    <!-- Modern Sign Up Colors -->
+    <color name="signup_gradient_start">#667eea</color>
+    <color name="signup_gradient_end">#764ba2</color>
+    <color name="signup_card_shadow">#1A000000</color>
+    <color name="signup_text_accent">#667eea</color>
+    <color name="signup_focus_color">#667eea</color>
+
+</resources>
